@@ -59,7 +59,14 @@ public abstract class CompteBancaire {
         solde = solde - operation.getMontant();
     }
 
-
+    @Override
+    public String toString() {
+        return "CompteBancaire{" +
+                "solde=" + solde +
+                ", client='" + client + '\'' +
+                ", listeOperations=" + listeOperations +
+                '}';
+    }
 }
 
 

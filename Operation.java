@@ -9,10 +9,6 @@ public class Operation {
         this.id = id;
         this.montant = montant;
         this.ope = ope;
-        /*switch (ope) {
-            case DEPOT -> setDepot();
-            case RETRAIT -> setRetrait();
-        }*/
     }
 
     public int getId() {
